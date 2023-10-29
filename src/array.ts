@@ -1,0 +1,1 @@
+const boyFriend: [string, number] = ['helo', 10]
