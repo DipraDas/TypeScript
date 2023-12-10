@@ -1,41 +1,39 @@
-// const rollNumber: number[] = [20, 35, 10];
-const rollNumber2: string[] = ["20", "46", "33"];
+// // const rollNumber: number[] = [20, 35, 10];
+// const rollNumber2: string[] = ["20", "46", "33"];
 
-// const rollNumber2: Array<string> = ["30", "46", "38"];
+// // const rollNumber2: Array<string> = ["30", "46", "38"];
 
-const userNameAndRollNumber: Array<{ name: string; roll: number }> = [
-    {
-        name: 'Dipra Das',
-        roll: 1
-    },
-    {
-        name: 'Juhi',
-        roll: 2
-    }
-]
+// const userNameAndRollNumber: Array<{ name: string; roll: number }> = [
+//     {
+//         name: 'Dipra Das',
+//         roll: 1
+//     },
+//     {
+//         name: 'Juhi',
+//         roll: 2
+//     }
+// ]
 
-type genericArray<T> = Array<T>;
-const rollNumber: genericArray<number> = [1, 2, 3, 4, 5]
-
-
-type GenericTuple<X, Y> = [X, Y];
-const relation: GenericTuple<string, string> = ["A", "B"];
-
-type RelationWithSalaryType = {
-    name: string,
-    salary: number
-}
+// type genericArray<T> = Array<T>;
+// const rollNumber: genericArray<number> = [1, 2, 3, 4, 5]
 
 
-const relationWithSalary: GenericTuple<RelationWithSalaryType, string> = [
-    {
-        name: 'Shreya',
-        salary: 40
-    },
-    "Sumit"
-]
+// type GenericTuple<X, Y> = [X, Y];
+// const relation: GenericTuple<string, string> = ["A", "B"];
+
+// type RelationWithSalaryType = {
+//     name: string,
+//     salary: number
+// }
 
 
+// const relationWithSalary: GenericTuple<RelationWithSalaryType, string> = [
+//     {
+//         name: 'Shreya',
+//         salary: 40
+//     },
+//     "Sumit"
+// ]
 
 
 
@@ -46,25 +44,27 @@ const relationWithSalary: GenericTuple<RelationWithSalaryType, string> = [
 
 
 
-interface CrushInterface<T, U = null> {
-    name: string,
-    husband: T,
-    wife?: U
-}
 
-interface PersonInterface {
-    name: string,
-    age: number
-}
 
-const crush4: CrushInterface<PersonInterface, PersonInterface> = {
-    name: "Dipra",
-    husband: {
-        name: 'X',
-        age: 30
-    },
-    wife: {
-        name: 'Y',
-        age: 20
-    }
-}
+// interface CrushInterface<T, U = null> {
+//     name: string,
+//     husband: T,
+//     wife?: U
+// }
+
+// interface PersonInterface {
+//     name: string,
+//     age: number
+// }
+
+// const crush4: CrushInterface<PersonInterface, PersonInterface> = {
+//     name: "Dipra",
+//     husband: {
+//         name: 'X',
+//         age: 30
+//     },
+//     wife: {
+//         name: 'Y',
+//         age: 20
+//     }
+// }
